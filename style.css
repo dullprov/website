@@ -1,0 +1,33 @@
+/* This is the Dullprov website stylesheet. */
+
+html, body {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+a.email {
+  height: 28px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.social-media {
+  margin: 0 auto;
+}
+
+.social-media > div {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 620px)  {
+  .social-media {
+    width: 620px;
+  }
+  .social-media > div {
+    width: initial;
+    margin-bottom: 0;
+  }
+}
+
