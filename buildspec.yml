@@ -11,3 +11,4 @@ phases:
 artifacts:
   files:
     - dist/build.js
+    - index.html
