@@ -12,3 +12,4 @@ artifacts:
   files:
     - dist/build.js
     - index.html
+  discard-paths: yes
